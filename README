@@ -27,6 +27,9 @@ eg:
 
 java -jar ~/testgtalk-0.9-standalone.jar abcd@gmail.com ABCD pqrst@gmail.com
 
+
+Now the user pqrst@gmail.com can see the abcd@gmail.com in his chat box. Now entering clojure commands just like chat message will be executed and result will be shown. Please find the SCREENSHOT attached
+
 clojure 1.2.1
 =============
 http://clojure.org/downloads
