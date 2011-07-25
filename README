@@ -1,8 +1,10 @@
 This is a program to interact with clojure REPL remotely using the google talk service. This requires two email address available, one for the 'program' and other for the 'remote user'.
 
-This is build using the clojure 1.2.1 ,which is LISP dialect of the java running on jvm. Leiningen is used to build the project. Smack libraries are used to utilize the google talk service to interact with REPL.
+This is build on the clojure 1.2.1 ,which is LISP dialect of the java running on jvm. 
+Leiningen is used to build the project. 
+Smack libraries are used to utilize the google talk service to interact with REPL.
 
-It requires java in the system inorder to run because it runs on the jvm.
+It requires java in the system in order to run because it runs on the jvm.
 
 SOURCE
 ======
@@ -14,7 +16,7 @@ There are  two types of jars available in the 'bin' folder in which the 'standal
 
 USAGE
 =====
-IMPORTANT: It must be ensured that the emails chosen to communicate are in the chat list of each other...This program do not send invitation rather its should be done manually!!!
+IMPORTANT: It must be ensured that the emails chosen to communicate are in the chat list of each other.This program do not send invitation rather its should be done manually!!!
 
 The independent version can be run as :
  java -jar <path>/testgtalk-0.9-standalone.jar <programemail> <password> <useremail>
@@ -25,10 +27,10 @@ useremail - is the gmail address of the person who can access the REPL remotely
 
 eg:
 
-java -jar ~/testgtalk-0.9-standalone.jar abcd@gmail.com ABCD pqrst@gmail.com
+java -jar ~/testgtalk-0.9-standalone.jar program@gmail.com PASSWD user@gmail.com
 
 
-Now the user pqrst@gmail.com can see the abcd@gmail.com in his chat box. Now entering clojure commands just like chat message will be executed and result will be shown. Please find the SCREENSHOT attached
+Now the user user@gmail.com can see the program@gmail.com in his chat box. Now entering clojure commands just like chat message will be executed and result will be shown. Please find the SCREENSHOT attached
 
 NOTE: please use <shift+enter> in the chat window to make new line in the chat window command otherwise the chat will be send resulting in incomplete command 
 
